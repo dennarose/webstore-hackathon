@@ -1,0 +1,242 @@
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 30px;
+  color: teal;
+}
+
+body {
+  background-color: burlywood;
+  color: darkgreen;
+  font: 16px/25px;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+hr {
+  background-color: black;
+  border: 0px;
+  color: black;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 16px;
+  line-height: 28px;
+  color: red;
+}
+
+nav ul li a {
+  color: yellow;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: mistyrose;
+  text-decoration: underline;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  width: 960px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.product img {
+  width: 95%;
+}
+.product .details .price {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+footer {
+  border-top:1px solid black;
+  font-size:12px;
+  line-height:26px;
+  width: 100%
+  color:mistyrose;
+}
+
+footer a {
+  color:orchid;
+}
+
+footer a:hover {
+  color:hotpink;
+}
+
+footer ul li {
+  display:inline;
+  list-style:none;
+  padding-left:20px;
+}
+
+
+/* Text Setting */
+h1 {
+  font-size: 50px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: darkred;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+img.float-left {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+img.float-right {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+img.center {
+  margin: 0 auto;
+  display: block;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Grid */
+.row {
+  width: 100%;
+  margin:0 auto 20px auto;
+  display:inline-block;
+  position:relative;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  float: left;
+  margin-right: 2%;
+}
+
+.row .col-1:last-child, .row .col-2:last-child, .row .col-3:last-child, .row .col-4:last-child, .row .col-5:last-child, .row .col-6:last-child, .row .col-7:last-child, .row .col-8:last-child, .row .col-9:last-child, .row .col-10:last-child, .row .col-11:last-child, .row .col-12:last-child { margin-right: 0; }
+.row:after, .clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.col-1  {
+  width: 6%;
+}
+
+.col-2  {
+  width: 15%;
+}
+.col-3  {
+  width: 23.5%;
+}
+
+.col-4  {
+  width: 32%;
+}
+
+.col-5  {
+  width: 40%;
+}
+
+.col-6  {
+  width: 49%;
+}
+
+.col-7  {
+  width: 56.5%;
+}
+
+.col-8  {
+  width: 66%;
+}
+
+.col-9  {
+  width: 74%;
+}
+
+.col-10 {
+  width: 82.5%;
+}
+
+.col-11 {
+  width: 91%;
+}
+
+.col-12 {
+  width: 100%;
+}
